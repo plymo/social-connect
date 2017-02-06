@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.inject.Inject;
 
 @Configuration
-@EnableJpaRepositories("cz.akineta.example.social")
+@EnableJpaRepositories
 @EnableTransactionManagement
 public class DatabaseConfiguration {
 
